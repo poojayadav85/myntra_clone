@@ -1,0 +1,28 @@
+.navigation {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: #212532;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  transition-delay: 0.8s;
+}
+.navigation.active {
+  width: 200px;
+  height: 200px;
+  transition-delay: 0s;
+}
+.navigation span {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+}
